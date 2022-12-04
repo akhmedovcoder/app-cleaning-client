@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Outfit:wght@500;600;700&family=Rubik:wght@400;500;600;700&display=swap");
+
+@import url(/css/normalize.css);
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-left: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* *HEADER STYLE STARTED*/
+
+.header-section__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo__img {
+  width: 97px;
+  height: 37px;
+}
+
+.header-nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 565px;
+}
+
+.header-nav__link {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #222326cc;
+}
+
+.header-nav__link:hover {
+  font-weight: 600;
+}
+
+.header-section__contact {
+  position: relative;
+}
+
+.header-section__contact::before {
+  position: absolute;
+  top: calc(50% - 15px);
+  right: calc(50% + 77px);
+  content: url(/images/header-img/contact-logo.svg);
+  width: 32px;
+  height: 32px;
+}
+
+.header-contact__text {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.header-contact__tel {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.33px;
+  color: #000000;
+}
+
+/* *HEADER STYLE FINISHED*/
+
+/* *HERO STYLE STARTED*/
+/* *HERO STYLE FINISHED*/
+
+/* *ABOUT STYLE STARTED*/
+/* *ABOUT STYLE FINISHED*/
+
+/* *SERVICE STYLE STARTED*/
+/* *SERVICE STYLE FINISHED*/
+
+/* *WORK STYLE STARTED*/
+/* *WORK STYLE FINISHED*/
+
+/* *CHOICE STYLE STARTED*/
+/* *CHOICE STYLE FINISHED*/
+
+/* *PRICE STYLE STARTED*/
+/* *PRICE STYLE FINISHED*/
+
+/* *FAQ STYLE STARTED*/
+/* *FAQ STYLE FINISHED*/
+
+/* *REVIEW STYLE STARTED*/
+/* *REVIEW STYLE FINISHED*/
+
+/* *CONTACT STYLE STARTED*/
+/* *CONTACT STYLE FINISHED*/
+
+/* *FOOTER STYLE STARTED*/
+/* *FOOTER STYLE FINISHED*/
