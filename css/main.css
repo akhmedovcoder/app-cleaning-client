@@ -2,8 +2,14 @@
 
 @import url(/css/normalize.css);
 
+:root {
+  --rubik: "Rubik", sans-serif;
+  --outfit: "Outfit", sans-serif;
+  --nunito: "Nunito", sans-serif;
+}
+
 * {
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -11,6 +17,7 @@
   width: 100%;
   max-width: 1360px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
 h1,
@@ -18,7 +25,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin-left: 0;
+  margin: 0;
 }
 
 ul {
@@ -35,21 +42,24 @@ a {
 .header-section__wrapper {
   display: flex;
   align-items: center;
+  padding: 27px 0;
 }
 
 .header-logo__img {
   width: 97px;
   height: 37px;
+  margin-right: 280px;
 }
 
 .header-nav__list {
   display: flex;
   justify-content: space-between;
   width: 565px;
+  margin-right: 195px;
 }
 
 .header-nav__link {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--rubik);
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
@@ -74,7 +84,7 @@ a {
 }
 
 .header-contact__text {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--rubik);
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -83,7 +93,7 @@ a {
 }
 
 .header-contact__tel {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--rubik);
   font-size: 16px;
   font-weight: 400;
   line-height: 21.33px;
@@ -93,6 +103,73 @@ a {
 /* *HEADER STYLE FINISHED*/
 
 /* *HERO STYLE STARTED*/
+
+.hero-section {
+  background-color: #dbebf8;
+  background-image: url(/images/hero-img/hero-bg.svg);
+  background-position: calc(50% + 370px) calc(50% + 23px);
+  background-repeat: no-repeat;
+}
+
+.hero-section__wrapper {
+  padding-top: 133px;
+  padding-bottom: 91px;
+}
+
+.hero-section__title {
+  width: 641px;
+  font-family: var(--outfit);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 101px;
+  margin-bottom: 24px;
+}
+
+.hero-section__desc {
+  width: 617px;
+  font-family: var(--rubik);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  color: #767877;
+  margin-bottom: 48px;
+}
+
+.hero-section__btn {
+  display: inline-block;
+  font-family: var(--rubik);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 18px 40px;
+  background-color: #1f6bff;
+  margin-bottom: 92px;
+}
+
+.hero-section__info {
+  display: flex;
+  justify-content: space-between;
+  width: 730px;
+}
+
+.hero-info__amount {
+  font-family: var(--rubik);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #050931;
+}
+
+.hero-info__text {
+  font-family: var(--rubik);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #647685;
+}
+
 /* *HERO STYLE FINISHED*/
 
 /* *ABOUT STYLE STARTED*/
